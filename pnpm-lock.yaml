@@ -10,7 +10,7 @@ importers:
     devDependencies:
       '@antfu/ni':
         specifier: ^30.5.0
-        version: 30.5.0
+        version: 30.6.0
       '@biomejs/biome':
         specifier: 2.4.15
         version: 2.4.15
@@ -47,13 +47,13 @@ importers:
 
 packages:
 
-  '@antfu/ni@30.5.0':
-    resolution: {integrity: sha512-VwQoM9qF1dzDrye55b1qIBeLr4zQ1a5wZQMPCe496HTiquViBZqxtNBaq98WX3ze5kC9Yl7gKSU4W2vtLztxYw==}
+  '@antfu/ni@30.6.0':
+    resolution: {integrity: sha512-vRZX+aPd9UzUMjsCeH0CR4ldbCwwGaKjbotF7PBRyZdbZRZJz3Em+HXUNaxGWcdajRpTBL1HQ0KECudftPs7CQ==}
     engines: {node: '>=20.19.0'}
     hasBin: true
 
   '@babel/code-frame@7.27.1':
-    resolution: {integrity: sha512-cjQ7ZlQ0Mv3b47hABuTevyTuYN4i+loJKGeV9flcCgIK37cCXRh+L1bd3iBHlynerhQ7BhCkn2BPbQUL+rGqFg==, tarball: https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.27.1.tgz}
+    resolution: {integrity: sha512-cjQ7ZlQ0Mv3b47hABuTevyTuYN4i+loJKGeV9flcCgIK37cCXRh+L1bd3iBHlynerhQ7BhCkn2BPbQUL+rGqFg==}
     engines: {node: '>=6.9.0'}
 
   '@babel/helper-validator-identifier@7.27.1':
@@ -846,6 +846,7 @@ packages:
 
   '@xrryx/biome-config@1.4.3':
     resolution: {integrity: sha512-VDKKUqsP9MGDjeSFvikM3iGAgg1oK4Opvkl1jIlezxK38EJAXYa1YE5/vAavBaEMWjUQjbGZxnoB+9x2DeD2tQ==}
+    deprecated: Moved to @ixxq/biome-config. Please use @ixxq/biome-config instead.
     hasBin: true
     peerDependencies:
       '@biomejs/biome': '>=2.0.0'
@@ -2002,7 +2003,7 @@ packages:
 
 snapshots:
 
-  '@antfu/ni@30.5.0':
+  '@antfu/ni@30.6.0':
     dependencies:
       fzf: 0.5.2
       package-manager-detector: 1.8.0
